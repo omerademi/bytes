@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omer Ademi</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Additional styling for the header */
+        header {
+            text-align: center; /* Center the header content */
+            margin-bottom: 20px; /* Add some spacing below the header */
+        }
+        h1 {
+            font-size: 2.5rem; /* Main title font size */
+            margin: 0; /* Remove default margin */
+        }
+        h2.subtitle {
+            font-size: 1.0rem; /* Subtitle font size */
+            color: #666; /* Subtitle color */
+            margin: 1px 0; /* Add spacing around the subtitle */
+        }
+
+        /* Project item styling with hover effect */
+        .project-item {
+            margin-bottom: 20px; /* Space between project items */
+            padding: 20px; /* Padding inside project items */
+            border: 1px solid #ddd; /* Border for project items */
+            transition: transform 0.3s ease; /* Smooth scaling effect */
+            cursor: pointer; /* Change cursor to pointer */
+            text-decoration: none; /* Remove underline from links */
+            color: black; /* Default text color */
+        }
+        .project-item:hover {
+            transform: scale(1.05); /* Scale up on hover */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Omer Ademi</h1>
+            <h2 class="subtitle">Web Developer</h2> <!-- Subtitle added here -->
+        </div>
+        <nav>
+            <ul>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <!-- Today Section -->
+        <section id="today">
+            <h2>Today</h2>
+            <p>I work as a design engineer at Linear. I like to build things for designers and developers, and think deeply about the user interface, how it looks, feels, and behaves.</p>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <div class="project-item">
+                <a href="project1.html">
+                    <h3>Animations on the Web</h3>
+                    <p>Learn how to craft animations that make people feel something.</p>
+                </a>
+            </div>
+
+            <div class="project-item">
+                <a href="project2.html">
+                    <h3>Vaul</h3>
+                    <p>An unstyled drawer component for React.</p>
+                </a>
+            </div>
+
+            <div class="project-item">
+                <a href="project3.html">
+                    <h3>Sonner</h3>
+                    <p>An opinionated toast component for React.</p>
+                </a>
+            </div>
+        </section>
+
+        <!-- Subscribe Section -->
+        <section id="subscribe">
+            <h2>Subscribe to the Newsletter</h2>
+            <form id="subscribe-form">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 omerbytes. All rights reserved.</p>
+    </footer>
+</body>
+</html>
